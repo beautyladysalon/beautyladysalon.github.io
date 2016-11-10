@@ -1,0 +1,374 @@
+- categoryname: Nails
+  subcategories:
+    - subcategory: General
+      items: 
+        - name: Nail Design
+          price: 10+
+          description: 
+        - name: Nail Polish
+          price: 20
+          description: Take your polish up a notch! Do a nail design with our creative nail technicians!
+        - name: Nail Trimming / File
+          price: 30
+          description: Form and shape it just like how you want it to!
+        - name: Cuticle Cleaning
+          price: 50
+          description: A healthy nails also requires a healthy and clean Cuticles!
+        - name: Striplac
+          price: 100
+          description: The world’s first nail polish that lasts much longer than standard polish, doesn’t chip and doesn’t need any solvents or nail polish remover to remove it.
+    - subcategory: Nail Extensions
+      items:
+        - name: Nail Extension
+          price: 30+
+          description: Intensify your claws with our Master Nail Technicians!
+        - name: Nail Repair
+          price: 25+
+          description: For any remedy regarding your nails.
+        - name: 3D Design
+          price: 600+
+          description: A 3D nail art is a very popular and fabulous look for your nails.
+        - name: Extension Removal
+          price: 100
+          description: Let the professionals do it for you
+        - name: French Extension
+          price: 500
+          description: Get fabulous looking nails with French manicure gel nail extensions!
+        - name: Natural Overlay Set Long
+          price: 400+
+          description: 
+        - name: Natural Overlay Set Short
+          price: 350+
+          description: A quick way to attain luxurious nails!
+        - name: Refill Deep
+          price: 350
+          description: 
+        - name: Refill French
+          price: 270
+          description: 
+        - name: Refill Normal
+          price: 220
+          description: Refresh your nails - get them to look good as new!
+        - name: Refill with Design
+          price: 300+
+          description: 
+        - name: Refill with Gel Color
+          price: 250
+          description: 
+        - name: Refill with change shape
+          price: 350
+          description:
+        - name: Stone
+          price: 20
+          description: A must nail accessory! This will add volume and a statement for your nails.
+    - subcategory: Hands
+      items:
+        - name: Manicure
+          price: 60
+          description: A classic and essential manicure for all expressive ladies!
+        - name: French
+          price: 80
+          description: 
+        - name: French Polish
+          price: 20
+          description: If you want to gain that classic, elegant look of a french manicure
+        - name: Lac
+          price: 160
+          description: If you want a chip free Nail Polish that instantly dries, is durable and strengthens the natural nails, then alessandro International's LAC SENSATION is for you
+        - name: Lac Polish
+          price: 100
+          description: 
+        - name: Lac Polish Removal
+          price: 30
+          description:
+        - name: Lac French
+          price: 180
+          description: 
+        - name: Lac French Polish
+          price: 120
+          description: 
+        - name: Manicure Striplac
+          price: 160
+          description: 
+        - name: Alessandro Spa Manicure
+          price: 230
+          description: NAIL SPA is a unique nail care system that can be adapted to the individual needs of different nail types. For hands & feet.
+        - name: Manicure Paraffin
+          price: 150
+          description: 
+        - name: Manicure Striplac
+          price: 160
+          description: 
+        - name: Thermasoft Paraffin Hands
+          price: 110
+          description: THERMASOFT is a purely natural, self-heating hand and foot mask, of which both relaxes and regenerates with a pleasant heat. The active ingredients penetrate deeply into the skin and unfold intense therapeutic effects there. For Hands & Feet
+    - subcategory: Feet
+      items:
+        - name: Pedicure
+          price: 110
+          description: A classic and essential manicure for all expressive ladies!
+        - name: Pedicure French
+          price: 120
+          description: 
+        - name: Pedicure Lac
+          price: 210
+          description: 
+        - name: Pedicure Lac French
+          price: 230
+          description: 
+        - name: Pedicure Striplac
+          price: 210
+          description: 
+        - name: Alessandro Spa Pedicure
+          price: 260
+          description:
+        - name: Thermasoft Paraffin Feet
+          price: 110
+          description: 
+        - name: Feet Scraping
+          price: 50
+          description: For a baby soft feet that you've ever feel.
+- categoryname: Hair
+  subcategories:
+    - subcategory: General
+      items:
+        - name: Hair Cut + Blowdry
+          price: 200
+          description: Look your best for spontaneous meetings, a girl’s night out or dinner with family and friends. The Enigma Beauty Salon and Spa will refresh your style in just the right amount of time to make you look amazing.
+        - name: Blowdry
+          price: 80 - 150
+          description: 
+        - name: Hotcut
+          price: 250
+          description: 
+        - name: Ends Cut
+          price: 100
+          description: 
+        - name: Fringe Cut
+          price: 50
+          description: 
+        - name: Kids Cut
+          price: 100
+          description: 
+        - name: Hair Extensions
+          description: Look like a star with secret celebrity styles! Hair extensions! Extensions have become a fashion accessory available for all women, and are capable of adding fullness, length and color, all within a matter of hours. The finishing touches will leave you looking fantastic!
+        - name: Belli Capelli Keratin / pc
+          price: 25
+          description: 
+        - name: Refill Hair Extension / pc
+          price: 10
+          description: 
+        - name: Extension Removal / pc
+          price: 5
+          description: 
+    - subcategory: Hair Coloring
+      items:
+        - name: Hair Coloring
+          description: Transform your look dramatically with dimensional color, or create a subtle change that will leave your hair with exceptional shine, extraordinary hold and an unbelievable vision of color perfection.
+        - name: Barex Coloring
+          price: 300
+          description: 
+        - name: Loreal Coloring
+          price: 450
+          description: 
+        - name: Wella Coloring
+          price: 300
+          description: 
+        - name: Hair Tonning
+          price: 150
+          description: Color your hair just like how you want it to! Hair toning neutralize brassy (yellow or yellow/orange) pigments.
+        - name: Highlights
+          price: 350+
+          description: Add pizzazz! And sparkle! To your hair with highlights. Which ever you decide, we can customize your highlight to brighten up your base color, or add lowlights to give your hair depth.
+        - name: Bleaching
+          price: 350
+          description: Want to look like you were born with it! Let our color specialists design the perfect tone of warm or cool shades for that incredibly natural look.
+        - name: Root Coloring
+          price: 250
+          description: There is no reason to hide your hair when it starts to show its roots! Get a root coloring treatment.
+        - name: Root Highlights
+          price: 150
+          description: Frame your face with partial highlights and/or lowlights. Either application can completely change the profile of any existing style with an impressionable impact as a finishing result.
+        - name: Hair Color Removal
+          price: 350+
+          description: For a color change. Back to black or whatever your hair color is
+    - subcategory: Hair Styling & Treatment
+      items:
+        - name: Hairstyle
+          price: 200
+          description: In keeping with the latest styles, trends, Looks and fashion, our stylists customize each look to create a perfect haircut just for you.
+        - name: Bridal Hairstyle
+          price: 1000
+          description: 
+        - name: Braid
+          price: 100+
+          description: 
+        - name: Kids Braid
+          price: 80
+          description: 
+        - name: Hair Up
+          price: 250
+          description: 
+        - name: Hair Up Evening
+          price: 350
+          description: 
+        - name: Hair Mask
+          price: 100
+          description: Experience the ultimate beauty of healthy hair! Enigma signature hair mask formulas are a wide range of professional products; Barex Italian (our own brands) especially designed for superior care of any type of hair condition. Our professionally trained stylist will choose the right treatment for the best results that can be seen and felt before you even leave the salon chair.
+        - name: Hot Iron Curl
+          price: 200
+          description: 
+        - name: Permanent Perming
+          price: 550
+          description: 
+        - name: Sebastian Lamination
+          price: 350
+          description: 
+        - name: Barex Lamination Short
+          price: 350+
+          description: 
+        - name: Hair Mask
+          price: 100
+          description: 
+        - name: Botox
+          price: 1500
+          description: 
+        - name: Loreal Treatment
+          price: 150+
+          description: 
+        - name: Barex Treatment
+          price: 250+
+          description: 
+- categoryname: Spa
+  subcategories:
+    - subcategory:
+      items:
+        - name:
+          price:
+          description: Luxurious and relaxing massage combined with warm heat therapy to deeply soothe and release life’s tension, as well as restore wellbeing and inner harmony. Developed by Native Americans to treat aching muscles, the Stone massage involves the application of water-heated basalt stones of varying sizes applied to key points on the body, giving a deep massage and creating sensations of comfort and warmth. The direct heat relaxes muscles, allowing manipulation of a greater intensity than with regular massage.
+        - name: Arometherapie Relaxation Massage
+          price: 
+          description: This treatment works from your head to your toes as the aromatic smells of exotic oils dissolve away all of your stress and tension. This is intense massage ritual is drawn from a fusion of ancient and modern techniques which enable the therapist to work on your body, mind and spirit. Chooses between several selections of aromas.
+        - name: Slimming Massage
+          price: 300
+          description: 
+        - name: Full Body Massage
+          price: 250
+          description: Relieve the stress of the most common areas of the body that are prone to stiffness and accumulated tension by having a tantalizing shoulder and neck massage. While laying on one of our comfortable treatment bed you will receive a relaxing restorative treatment which is specifically designed for tight, stressed and aching muscles in the neck and shoulder areas. This targeted massage therapy stimulates nerve receptors in the face, relaxes muscles in the neck and softens connective tissue in the shoulders. Applied with essential oils, it will help to warm the muscles and disperse the buildup of lactic acid that causes stiffness and pain.
+        - name: Back Massage
+          price: 155
+          description: 
+        - name: Head & Shoulder Massage
+          price: 150
+          description: 
+        - name: Head Massage
+          price: 75
+          description: 
+        - name: Foot Massage
+          price: 100
+          description: Through a gentle yet effective therapy, Foot Reflex Massage is an ancient practice in Chinese medicine that consists of massaging and squeezing on parts of the feet to relieve tension and clear blockages by Stimulating sensory receptors in the nerve fibers of the foot. During a foot massage reflexology treatment, endorphins are released into the bloodstream, easing aches and pains, promoting a feeling of deep relaxation and balance in those treated. Reflexology helps restore and maintain the bodies’ natural equilibrium and encourages the body to work naturally to restore its own healthy balance.
+        - name: Massage / Machine
+          price: 350
+          description: 
+        - name: Anti-Cellulite 1 / 5 Sessions
+          price: 350 / 1500
+          description: One of the most effective ways to deal with cellulite, this massage is applied all over the body with specific concentration of problematic areas of the body, such as thighs, buttocks, belly and arms, to reduce the uneven dimple like skin layer caused by cellulite. It is performed using deep, strong massage movements together with special oils and creams, which warms up the surface not only externally, but also deeper layers of the skin, dissolving cellulite and stimulating metabolism. This program offers 10 sessions of Anti Cellulite massages at least twice a week.
+        - name: Moroccan Bath
+          price: 150
+          description: An amazing Moroccan bath ritual performed by a Moroccan lady at Enigma Beauty Salon and Spa. It starts with lathering the body with the special Moroccan soap and letting the steam open your pores so the soap will get into the skin and soften the dead cells. After that, your body is washed with warm water and the scrubbing with the special loofa starts! You won’t believe the dirt coming out of your body. In fact, if you to take a bath at home before you do the Moroccan bath, you’ll believe that no bath is good enough to make you that clean and soft you are then washed and massaged with special oil
+        - name: Thai Massage
+          price: 500
+          description: Thai massage, has been influenced and used by Indian and Chinese traditions for over 2500 years. This ancient massage combines stretches, muscle compression, and pressure points, to more thoroughly release tension in deep muscle and connective tissue, and help you relax, and feel more grounded and energized. The therapist uses his hands, elbows, knees, feet and entire legs to move the client into a series of stretches that align the energies of your body and increase flexibility. The Thai Massage is a dry massage.
+        - name: Solarium
+          price: 60
+          description: 
+        - name: Shiatsu Massage (Dry Deep Tissue Massage)
+          price:
+          description: Digits have never felt so divine. This truly unique healing technique, also referred to as an acupressure massage, originates from a Japan. As “Shi” is the meaning for “finger” and “Atsu” is the meaning pressure, the Shiatsu massage is an intense manipulation of the body, working deep into your muscles for ultimate stress relief and deep relaxation, by stretching and targeting pressure points, which stimulate the energy channels in your body. It works very similarly to acupuncture – busting stress and revitalizing your health – but without any scary needles.
+        - name: Deep Tissue Massage
+          price:
+          description: Many clients enjoy the sensation of deep tissue massage, especially if they are having muscular or joint distress from excessive exercise or a past injury. Deep tissue massage, or sometimes referred to the Sports Therapy Massage, is a style of massage that is designed to get into the connective tissue of the body, rather than just the surface muscles. Using a variety of techniques to deeply penetrate the muscles and fascia, the deep tissue massage usually targets trouble spots using slower strokes with pressure applied according to the client’s tolerance. In addition to relieving specific aches and pains, deep tissue massage improves circulation and mood and increases energy and alertness.
+        - name: Body Scrub Massage
+          price: 
+          description: The Body Scrub Massage is one of the simplest yet most effective ways to both exfoliate the top layer of dead skin as you massage muscles and moisturize everything. By using natural graduals infused with oils applied directly onto the body with relaxing strokes, followed by warm wet towel to remove the excess, this treatment will create a deep sate of tranquility and a total peace of mind.
+        - name: KLAPP Repagen Body Cinnamon Treatment
+          price:
+          description: is a special cream you can use daily to improve the texture of the skin where CELLULITE appears. KLAPP Repagen BODY CINNAMON CREAM contains extracts and oils to help skin tissues look smoother and finer after the treatment. CINNAMON CREAM is a special blood circulation enhancing cream for the care of the body contours as well as for the support of ORANGE SKIN treatment. Supports local slimming and has a moisture-binding, balancing Function.
+- categoryname: Waxing
+  subcategories:
+    - subcategory:
+      items:
+        - name: Full Body
+          price: 270
+          description: 
+        - name: Bikini Line
+          price: 80
+          description: 
+        - name: Full Bikini
+          price: 85
+          description: 
+        - name: Full Arm
+          price: 80
+          description: 
+        - name: Full Face
+          price: 70
+          description: 
+        - name: Full Leg
+          price: 120
+          description: 
+        - name: Half Arm
+          price: 40
+          description: 
+        - name: Half Leg
+          price: 60
+          description: 
+        - name: Chest
+          price: 20
+          description: 
+        - name: Under Arm
+          price: 40
+          description: 
+        - name: Upper Lip
+          price: 20
+          description: 
+- categoryname: Make-up
+  subcategories:
+    - subcategory:
+      items:
+        - name: Express Make-up
+          price: 150+
+          description: 
+        - name: Make-up
+          price: 300
+          description: 
+        - name: Bridal Make-up
+          price: 1000
+          description: 
+        - name: Eye Make-up
+          price: 150
+          description: 
+        - name: Eyelash Foundation
+          price: 50
+          description: 
+        - name: Foundation Application
+          price: 100
+          description: 
+        - name: Eyebrow Shaping
+          price: 50
+          description: 
+        - name: Eyebrow Tinting
+          price: 50
+          description: 
+        - name: Eyelash Extension
+          price: 500
+          description: 
+        - name: Eyelash Extension Removal
+          price: 50
+          description: 
+        - name: Eyelash Refill
+          price: 250
+          description: 
+        - name: Eyelash Tinting
+          price: 50
+          description: 
+
