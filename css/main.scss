@@ -1,0 +1,73 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+@charset "utf-8";
+
+/*
+@font-face {
+  font-family: 'Corinthia';
+  src: url('/../fonts/Corinthia.eot');
+  src: url('/../fonts/Corinthia.eot?#iefix') format('embedded-opentype'),
+    url('/../fonts/Corinthia.woff2') format('woff2'),
+    url('/../fonts/Corinthia.woff') format('woff'),
+    url('/../fonts/Corinthia.svg') format('svg'),
+    url('/../fonts/Corinthia.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+*/
+
+
+// Our variables
+$base-font-family: "Arima Madurai", Helvetica, Arial, sans-serif;
+$base-font-size:   16px;
+$base-font-weight: 400;
+$small-font-size:  $base-font-size * 0.875;
+$base-line-height: 1.6;
+
+$spacing-unit:     30px;
+
+$background-color: #E6EAED;
+$brand-color:      #FAB313;
+
+$header-color:	   #262626;
+$text-color: 	   #404040;
+$link-color:	   #499be7;
+
+$header-font:       'Work Sans','Helvetica','Arial',sans-serif;
+$body-font:         'Arima Madurai','Helvetica','Arial',sans-serif;
+
+$grey-bg:		   #E6EAED;
+$grey-color:       #767676;
+$grey-color-light: lighten($grey-color, 40%);
+$grey-color-dark:  darken($grey-color, 25%);
+
+// Width of the content area
+$content-width:    800px;
+
+$xs:        420px;
+$sm:        768px;
+$md:        992px;
+$lg:		1200px;
+$xl:		1440px;
+
+// Use media queries like this:
+// @include media-query($on-palm) {
+//     .wrapper {
+//         padding-right: $spacing-unit / 2;
+//         padding-left: $spacing-unit / 2;
+//     }
+// }
+@mixin media-query($device) {
+    @media screen and (min-width: $device) {
+        @content;
+    }
+}
+
+
+
+// Import partials from `sass_dir` (defaults to `_sass`)
+@import
+		"frameworks.css",
+        "layout"
+;
