@@ -43,6 +43,11 @@ $(document).ready(function() {
 		  }
 	  };
 
+	// Mobile NAV XS
+	$('.menu__xs').click(function() {
+		$('.nav__xs').toggleClass('show');
+	});
+
 }); // End Document Ready
 
 
