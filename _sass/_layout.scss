@@ -80,6 +80,7 @@ body {
 
 h1,h2,h3,h4,h5,h6 {
     font-family: $header-font;
+    font-weight: 900;
 }
 
 h1 { font-size: 10.250em; color: #202020;}
@@ -142,6 +143,7 @@ li {
 
 .index {
     position: relative;
+    overflow-x: hidden;
 }
 
 .container {
@@ -209,10 +211,16 @@ li {
         display: table-caption;
         font-size: calc(5em + 2vw);
         font-weight: 900;
+        letter-spacing: 2px;
         line-height: 1;
         text-transform: uppercase;
         top: 50%;
         transform: translateY(50%);
+
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-image: linear-gradient(135deg,$text-color 65%,#fff);
+        background-image: -webkit-linear-gradient(135deg,$text-color 65%,#fff);
     }
 }
 
@@ -242,8 +250,7 @@ li {
     width: 100%;
     box-shadow: none;
     padding: 10px 0 10px 0;
-    background: transparent;
-    box-shadow: 0 0 4px 0 rgba(41,39,44,0.25);
+    background: white;
     transition: all 0.2s linear;
     z-index: 500;
     .logo__xs {
@@ -356,8 +363,8 @@ li {
     }
 }
 .header__xs.resize {
-    background: white;
-    padding: 5px 0;
+    padding: 10px 0;
+    box-shadow: 0 0 4px 0 rgba(41,39,44,0.25);
 }
 
 @include media-query($sm) {
@@ -491,6 +498,22 @@ li {
         }
     }
 }
+
+/*------------------------------------*\
+  #INDEX-LOCATION-MAP
+\*------------------------------------*/
+
+.index__location {
+    h2 {
+        position: relative;
+        top: 0.50em;
+        font-size: 4em;
+        letter-spacing: 2px;
+        text-transform: uppercase;
+        text-align: center;
+    }
+}
+
 
 /*------------------------------------*\
   #FOOTER
