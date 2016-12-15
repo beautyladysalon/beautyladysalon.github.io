@@ -83,12 +83,12 @@ h1,h2,h3,h4,h5,h6 {
     font-weight: 900;
 }
 
-h1 { font-size: 10.250em; color: #202020;}
-h2 { font-size: 2.250em; color: #282828; }
-h3 { font-size: 1.750em; color: #303030; }
-h4 { font-size: 1.50em;  color: #383838; }
-h5 { font-size: 1.250em; color: #505050; }
-h6 { font-size: 1em;     color:#a0a0a0;  }
+h1 { font-size: 10.250em; color: $header-color;}
+h2 { font-size: 2.250em; color: $header-color; }
+h3 { font-size: 1.750em; color: $header-color; }
+h4 { font-size: 1.50em;  color: $header-color; }
+h5 { font-size: 1.250em; color: $header-color; }
+h6 { font-size: 1em;     color: $header-color;  }
 
 p,a,span {
     font-family: $body-font;
@@ -125,8 +125,8 @@ li {
 
 .h3-custom {
     text-transform: uppercase;
-    line-height: 1.2;
-    font-weight: 900;
+    line-height:    1.2;
+    font-weight:    900;
 }
 
 .h4-custom {
@@ -157,6 +157,9 @@ li {
     .container {
         
     }
+    p,a,span {
+        line-height: 1.635;
+    }
 }
 
 @include media-query($md) {
@@ -181,8 +184,8 @@ li {
 .index__main {
     position: relative;
     width: 100%;
-    min-height: 100vh;
-    background: url('../img/salon/1.jpg');
+    // min-height: 100vh;
+    // background: url('../img/salon/1.jpg');
     background-size: cover;
     background-position: center center;
     svg {
@@ -206,7 +209,7 @@ li {
         background: rgba(white,0.75);
         overflow: hidden;
     }
-    h1 {
+    .h1-main {
         position: relative;
         display: table-caption;
         font-size: calc(5em + 2vw);
@@ -216,11 +219,6 @@ li {
         text-transform: uppercase;
         top: 50%;
         transform: translateY(50%);
-
-        -webkit-background-clip: text;
-        -webkit-text-fill-color: transparent;
-        background-image: linear-gradient(135deg,$text-color 65%,#fff);
-        background-image: -webkit-linear-gradient(135deg,$text-color 65%,#fff);
     }
 }
 
@@ -314,7 +312,7 @@ li {
     top: 0;
     width: 100%;
     box-shadow: none;
-    padding: 15px 0 15px 0;
+    padding: 10px 0 10px 0;
     background: transparent;
     transition: all 0.2s linear;
     z-index: 100;
@@ -326,7 +324,7 @@ li {
         text-align: left;
         vertical-align: middle;
         img {
-            max-height: 50px;
+            max-height: 35px;
             width: auto;
             vertical-align: middle;
         }
@@ -356,7 +354,7 @@ li {
 
 .header__sm.resize {
     background: white;
-    padding: 10px 0;
+    padding: 5px 0;
     box-shadow: 0 0 4px 0 rgba(41,39,44,0.25);
     a {
         color: $text-color;
@@ -380,20 +378,23 @@ li {
     position: relative;
     min-height: 50vh;
     width: 100%;
-    background: #fdf06f;
+    background: #240521; // #fdf06f;
     padding-top: 120px;
     padding-bottom: 150px;
+    box-shadow: 0px 2px 3px #707070;
     &::before {
         position: absolute;
         content: '';
         width: 0;
         height: 0;
-        border-bottom: 50px solid #fdf06f;
+        border-bottom: 50px solid #240521; // #fdf06f;
         border-left: 100vw solid transparent;
 
         top: -50px;
         left: 0;
         right: 0;
+        -webkit-filter: drop-shadow( -4px -4px 2px rgba(0,0,0,0.350) );
+        filter: drop-shadow( -4px -4px 2px rgba(0,0,0,0.350) );
     }
     &::after {
         position: absolute;
@@ -404,11 +405,11 @@ li {
         right: 0;
         top: -200px;
         transform: rotate(-5deg);
-        background: url('../img/divider/1.2.png') no-repeat;
+        background: url('../img/divider/1.4.png') no-repeat;
         background-size: 300px auto;
         background-position: center center;
     }
-    h1 {
+    h2 {
         text-transform: uppercase;
         font-size: 3.250em;
         font-weight: 900;
@@ -418,12 +419,25 @@ li {
     }
     p {
         max-width: 700px;
+        color: white;
     }
 }
 
 .index__organic-features {
     position: relative;
-    top: -100px;
+    padding: 100px 0;
+    background: url(../img/salon/2.jpg);
+    background-size: cover;
+    background-position: center center;
+    &::after {
+        position: absolute;
+        content: '';
+        background: url(../img/bg/grid.png) repeat;
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+    }
     .organic-features {
         position: relative;
         padding: 15px;
@@ -431,10 +445,13 @@ li {
         margin-bottom: 15px;
         max-width: 300px;
         background: white;
+        border-radius: 5px;
         box-shadow:0 2px 5px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12);
+        z-index: 10;
         &::after {
             position: absolute;
-            content: '';
+            display: none;
+            // content: '';
             top: 15px;
             left: 15px;
             width: calc(100% - 32px);
@@ -442,7 +459,7 @@ li {
             border: 2px dashed $text-color;
         }
         .organic-features__content {
-            padding: 30px 15px;
+            padding: 0 15px; // 30px 15px;
         }
         .organic-features__top {
             position: relative;
@@ -506,11 +523,10 @@ li {
 .index__location {
     h2 {
         position: relative;
-        top: 0.50em;
-        font-size: 4em;
         letter-spacing: 2px;
         text-transform: uppercase;
         text-align: center;
+        padding: 15px;
     }
 }
 
@@ -521,20 +537,42 @@ li {
 
 footer {
     position: relative;
-    background: #262626;
+    background: #240521;
     width: 100%;
-    padding: 100px 0;
+    padding: 50px 0;
     svg {
         position: absolute;
         content: '';
-        fill: #262626;
+        fill: #240521; // #262626;
         width: 100%;
         top: -48px;
         left: 0;
         right: 0;
         height: 50px;
+        -webkit-filter: drop-shadow( -4px -4px 2px rgba(0,0,0,0.350) );
+        filter: drop-shadow( -4px -4px 2px rgba(0,0,0,0.350) );
+    }
+    .container {
+        max-width: 600px;
     }
     nav {
         color: white;
+        margin-bottom: 50px;
+    }
+    .footer__social {
+        ul {
+            list-style: none;
+            text-align: center;
+        }
+        li {
+            display: inline-block;
+            &:not(:last-child) {
+                margin-right: 15px;
+            }
+        }
+        img {
+            width: 35px;
+            height: 35px;
+        }
     }
 }
